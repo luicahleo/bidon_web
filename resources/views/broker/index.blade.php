@@ -15,7 +15,8 @@
                         <div class="flex flex-wrap -m-4 text-center">
                             <div class="p-4 sm:w-1/4 w-1/2">
                                 <div class="bg-indigo-500 rounded-lg p-2 xl:p-6">
-                                    <h2 id="distance" class="title-font font-medium sm:text-4xl text-3xl text-white"></h2>
+                                    <h2 id="distance" class="title-font font-medium sm:text-4xl text-3xl text-white">
+                                    </h2>
                                     <p class="leading-relaxed text-gray-100 font-bold">metros</p>
                                 </div>
                             </div>
@@ -50,8 +51,19 @@
      ******************************
      */
 
-    $("#distance").html(" 44");
+    function update_values(dist) {
+        $("#distance").html(dist);
+    }
 
+    function process_msg(topic, message) {
+        // ej: "10,11,12"
+        if (topic == "values") {
+            var msg = message.toString();
+            var sp = msg.split(",");
+            var dist = sp[0];
+            update_values(dist);
+        }
+    }
 
     /*
      ******************************
