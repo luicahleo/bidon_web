@@ -17,5 +17,11 @@ module.exports = {
         },
     },
 
+    //para desabilitar el container
+    corePlugins: {
+        // ...
+       container: false,
+      },
+
     plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 };
