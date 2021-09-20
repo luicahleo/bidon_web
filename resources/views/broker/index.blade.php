@@ -22,7 +22,7 @@ const options = {
       console.log('Mqtt conectado por WS, Exito!!!')
 
       client.subscribe('values', { qos:0 }, (error) => {
-        if (error) {
+        if (!error) {
           console.log('Suscripcion exitosa');
         }else {
           console.log('Suscrpcion fallida');
