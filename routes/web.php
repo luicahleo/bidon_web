@@ -23,3 +23,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::resource('brokers', BrokerController::class)->names('brokers');
+
+
