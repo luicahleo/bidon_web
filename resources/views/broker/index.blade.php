@@ -59,9 +59,9 @@
         // ej: "10,11,12"
         if (topic == "values") {
             var msg = message.toString();
-            var sp = msg.split(",");
-            var dist = sp[0];
-            update_values(dist);
+            //var sp = msg.split(",");
+            //var dist = sp[0];
+            update_values(msg);
         }
     }
 
