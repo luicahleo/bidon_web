@@ -1,4 +1,4 @@
-<h1>Broker index</h1>
+<h1>Broker index pruebas</h1>
 
 
 {{-- <script src="https://unpkg.com/mqtt@4.2.8/dist/mqtt.min.js">
