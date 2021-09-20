@@ -9,7 +9,7 @@
 const options = {
       connectTimeout: 4000,
 
-      clientId: 'asd',
+      clientId: 'asds',
       keepalive: 60,
       clean: true,
     }
