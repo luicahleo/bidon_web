@@ -102,6 +102,8 @@
 
     client.on('message', (topic, message) => {
         console.log('Mensaje recibido bajo el topico: ', topic, ' -> ', message.toString());
+        process_msg(topic, message);
+
     })
 
     client.on('reconnect', (error) => {
