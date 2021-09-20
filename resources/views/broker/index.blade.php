@@ -1,7 +1,7 @@
 <h1>Broker index pruebas con pull nuevo</h1>
 
 
-{{-- <script src="https://unpkg.com/mqtt@4.2.8/dist/mqtt.min.js">
+<script src="https://unpkg.com/mqtt@4.2.8/dist/mqtt.min.js">
     const options = {
         connectTimeout: 4000,
 
@@ -25,4 +25,4 @@
     client.on('error', (error) => {
         console.log('error de conexion', error)
     })
-</script> --}}
+</script>
