@@ -78,8 +78,8 @@ const options = {
 
       // Authentication
       clientId: 'iotmc',
-      username: 'web_client',
-      password: '121212',
+      //username: 'web_client',
+      //password: '121212',
 
       keepalive: 60,
       clean: true,
