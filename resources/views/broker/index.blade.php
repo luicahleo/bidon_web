@@ -30,7 +30,7 @@
 
 </x-app-layout>
 
-<script src="libs/jquery/jquery/dist/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
 
