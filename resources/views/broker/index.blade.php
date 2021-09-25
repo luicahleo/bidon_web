@@ -19,7 +19,7 @@
                                     </h2>
                                     <i class="fas fa-water"></i>
 
-                                    <p class="leading-relaxed text-gray-100 font-bold">metros</p>
+                                    <p class="leading-relaxed text-gray-100 font-bold">centimetros de nivel de agua</p>
                                 </div>
                             </div>
 
