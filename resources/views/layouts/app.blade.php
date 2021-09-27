@@ -22,6 +22,7 @@
         <x-jet-banner />
 
         <div class="min-h-screen bg-gray-100">
+            {{-- componente que llama al navigation-menu.blade.php --}}
             @livewire('navigation-menu')
 
             
