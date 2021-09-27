@@ -17,7 +17,7 @@
                                 <div class="bg-indigo-500 rounded-lg p-2 xl:p-6">
                                     <h2 id="distance" class="title-font font-medium sm:text-4xl text-3xl text-white">
                                     </h2>
-                                    <i class="fa fa-water"></i>
+                                    <i class="fas fa-water"></i>
 
                                     <p class="leading-relaxed text-gray-100 font-bold">centimetros de nivel de agua</p>
                                 </div>
