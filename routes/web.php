@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Broker\BrokerController;
+use App\Http\Controllers\Nivel\NivelController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +23,9 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::resource('brokers', BrokerController::class)->names('brokers');
+Route::resource('brokers', BrokerController::class);
+
+//Route::get('index', NivelController::class)->name('nivel');
+
 
 

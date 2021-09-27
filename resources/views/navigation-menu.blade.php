@@ -5,13 +5,14 @@ $nav_links = [
         'route' => route('home'),
         'active' => request()->routeIs('home'),
     ],
-
+    [
+        'name' => 'Nivel',
+        'route' => route('brokers.index'),
+        'active' => request()->routeIs('brokers.*'),
+    ]
     
 ];
 @endphp
-
-
-
 
 <nav x-data="{ open: false }" class="bg-white border-b border-gray-100 shadow">
     <!-- Primary Navigation Menu PARA ORDENADORES -->
