@@ -1,5 +1,7 @@
 <x-app-layout>
 
+
+
     <div class="container">
         <div class="card mt-6">
             <div class="card-body">
@@ -12,13 +14,29 @@
                                 {{-- <div class="h-1 w-2/4 bg-indigo-500 rounded"></div> --}}
                             </div>
                         </div>
-                        <div class="flex flex-wrap -m-4 text-center">
+                        <div class="flex flex-wrap -m-4 text-center grid grid-cols-2">
+                            <div>
+                                <article>
+                                    <figure>
+                                        <img src="{{ asset('img/bidon/dos_bidones.jpg') }}" alt="">
+                                    </figure>
+                                </article>
+                            </div>
                             <div class="p-4 sm:w-1/4 w-1/2">
-                                <div class="bg-indigo-500 rounded-lg p-2 xl:p-6">
-                                    <h2 id="distance" class="title-font font-medium sm:text-4xl text-3xl text-white">
-                                    </h2>
+                                <div class="bg-indigo-500 rounded-lg p-2 xl:p-6 grid grid-cols-2">
 
-                                    <p class="leading-relaxed text-gray-100 font-bold">centimetros de nivel de agua</p>
+                                    <div>
+                                        <h2 id="distance"
+                                            class="title-font font-medium sm:text-4xl text-3xl text-white">
+                                        </h2>
+
+                                        <p class="leading-relaxed text-gray-100 font-bold">
+                                            <i class="fas fa-water"></i>
+                                            centimetros de nivel de agua
+
+                                        </p>
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -28,6 +46,8 @@
             </div>
         </div>
     </div>
+
+
 
 
 </x-app-layout>
